@@ -1,60 +1,29 @@
-# \# RAG-Based Document Question Answering System
+# RAG-Based Document Question Answering System
 
-# 
+An AI-powered PDF question-answering application built using Retrieval-Augmented Generation (RAG). It retrieves relevant document content using Sentence Transformers and FAISS, generates context-aware answers through OpenRouter, and supports AI text-to-speech using ElevenLabs.
 
-# An AI-powered PDF question-answering application built using Retrieval-Augmented Generation (RAG). It retrieves relevant document content using Sentence Transformers and FAISS, generates context-aware answers through OpenRouter, and supports AI text-to-speech using ElevenLabs.
+## Features
 
-# 
+* PDF document question answering
+* Semantic embeddings using Sentence Transformers
+* FAISS vector similarity search
+* Context-aware answers using OpenRouter
+* Optional ElevenLabs text-to-speech
+* Python backend and React frontend
 
-# \## Features
+## Tech Stack
 
-# 
+Python, Sentence Transformers, FAISS, OpenRouter API, ElevenLabs API, Streamlit, React, Vite.
 
-# \* PDF document question answering
+## Project Structure
 
-# \* Semantic embeddings using Sentence Transformers
+* `rag-app/` — Python backend and frontend application
+* `docs/` — Sample text documents for testing
 
-# \* FAISS vector similarity search
+## Setup
 
-# \* Context-aware answers using OpenRouter
+See [`rag-app/README.md`](rag-app/README.md) for installation and setup instructions.
 
-# \* Optional ElevenLabs text-to-speech
+## Security
 
-# \* Python backend and React frontend
-
-# 
-
-# \## Tech Stack
-
-# 
-
-# Python, Sentence Transformers, FAISS, OpenRouter API, ElevenLabs API, Streamlit, React, Vite.
-
-# 
-
-# \## Project Structure
-
-# 
-
-# \* `rag-app/` — Python backend and frontend application
-
-# \* `docs/` — Sample text documents for testing
-
-# 
-
-# \## Setup
-
-# 
-
-# See \[`rag-app/README.md`](rag-app/README.md) for installation and setup instructions.
-
-# 
-
-# \## Security
-
-# 
-
-# Copy `rag-app/.env.example` to `rag-app/.env` and add your own API keys. Never commit `.env`, API keys, private documents, or local indexes to GitHub.
-
-
-
+Copy `rag-app/.env.example` to `rag-app/.env` and add your own API keys. Never commit `.env`, API keys, private documents, or local indexes to GitHub.
