@@ -32,6 +32,30 @@ From the `rag-app` directory:
 
    `streamlit run app.py`
 
+### Deploy the Streamlit app
+
+The Streamlit Cloud app uses `rag-app/app.py` as its entry point. Set the repository to
+`sekar-rgb/RAG-Based-document-question-answering-system`, the branch to `main`, and the
+app file path to `rag-app/app.py`.
+
+In the app's **Settings → Secrets**, add:
+
+```toml
+OPENROUTER_API_KEY = "your-openrouter-api-key"
+```
+
+To enable voice recording and spoken answers, also add:
+
+```toml
+ELEVENLABS_API_KEY = "your-elevenlabs-api-key"
+ELEVENLABS_VOICE_ID = "your-elevenlabs-voice-id"
+ELEVENLABS_MODEL_ID = "eleven_multilingual_v2"
+```
+
+Never commit API keys to the repository. Streamlit Cloud's local filesystem is
+ephemeral, so documents uploaded to the hosted app and their generated index may
+need to be uploaded again after the app restarts.
+
 ### Frontend
 From the `rag-app/frontend` directory:
 

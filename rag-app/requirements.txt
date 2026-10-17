@@ -1,6 +1,7 @@
 faiss-cpu
 sentence-transformers
 openai
+requests
 python-dotenv
 PyPDF2
 transformers
