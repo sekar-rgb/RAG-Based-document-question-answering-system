@@ -1,0 +1,2 @@
+﻿RAG sample content.
+Retrieval Augmented Generation document.

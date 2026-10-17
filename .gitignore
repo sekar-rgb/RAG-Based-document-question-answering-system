@@ -1,0 +1,64 @@
+﻿# Secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.log
+
+# Local RAG data and indexes
+rag_index/
+**/rag_index/
+uploaded_docs/
+
+# Local output
+test_output.txt
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node.js dependencies
+node_modules/
+**/node_modules/
+frontend/dist/
+**/frontend/dist/
+
+# Python cache and virtual environments
+**/__pycache__/
+**/*.py[cod]
+**/.venv/
+**/venv/
+
+# Node.js dependencies and build output
+**/node_modules/
+**/dist/
+
+# Local RAG indexes and uploaded documents
+**/rag_index/
+**/uploaded_docs/
+
+# Secrets
+.env
+.env.*
+**/.env
+**/.env.*
+!.env.example
+!**/.env.example
+
+# Local output and temporary files
+test_output.txt
+*.log
+.DS_Store
+Thumbs.db
+TODO.md
+conference papper1.docx
+docs/conference papper1.docx
+rag-app/debug_inspect.py

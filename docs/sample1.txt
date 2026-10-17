@@ -1,0 +1,2 @@
+﻿Python sample content for RAG testing.
+This is a simple document about Python.
